@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@drawable/menu_search"/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="검색 : "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#EB8C1A"/>
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:inputType="text"
+        android:backgroundTint="#EB8C1A"
+        android:imeActionId="1337"
+        android:imeActionLabel="OK"
+        android:imeOptions="actionDone"/>
+        <!--ime : 텍스트 입력기 설정 -->
+
+</LinearLayout>

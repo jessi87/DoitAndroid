@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app ="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_refresh"
+        android:title="새로고침"
+        android:icon="@drawable/menu_refresh"
+        app:showAsAction="always"
+        android:orderInCategory="1"/>
+    <item
+        android:id="@+id/menu_search"
+        android:title="검색"
+        android:icon="@drawable/menu_search"
+        app:showAsAction="always|withText"
+        android:orderInCategory="2"
+        app:actionLayout="@layout/search_layout"/>
+    <!--actionLayout 설정하면 icon 사라짐-->
+    <!--android:actionLayout으로 설정하면 단말에 출력 안됨(오류)-->
+
+    <item
+        android:id="@+id/menu_settings"
+        android:title="설정"
+        android:icon="@drawable/menu_settings"
+        app:showAsAction="never"
+        android:orderInCategory="3"/>
+
+
+</menu>

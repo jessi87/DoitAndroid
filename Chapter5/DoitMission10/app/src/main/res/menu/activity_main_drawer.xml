@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/alert"
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="ALERT" />
+        <item
+            android:id="@+id/popup"
+            android:icon="@android:drawable/ic_popup_reminder"
+            android:title="POPUP" />
+        <item
+            android:id="@+id/chat"
+            android:icon="@android:drawable/sym_action_chat"
+            android:title="CHAT" />
+
+    </group>
+
+</menu>
