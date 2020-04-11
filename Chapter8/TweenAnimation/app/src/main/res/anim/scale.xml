@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <scale
+        android:duration="2500"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:toXScale="2.0"
+        android:toYScale="2.0"/>
+
+    <scale
+        android:startOffset="2500"
+        android:duration="2500"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:toXScale="0.5"
+        android:toYScale="0.5"/>
+
+</set>
+
+<!--
+     시작시간(~초후)
+     지속시간
+     크기를 변경하려는 중심이 되는 점의 정보 (50%,50%면 가운데가 됨)
+     시작할 때의 확대/축소 비율
+     끝날 때의 확대/축소 비율
+-->

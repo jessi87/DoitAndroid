@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate
+        android:fromXDelta="0%p"
+        android:toXDelta="-100%p"
+        android:duration="3000"
+        android:repeatCount="-1"
+        android:fillAfter="true"/>
+
+</set>
+
+<!--
+    시작위치
+    종료위치
+    지속시간
+    반복되는지(-1:무한반복)
+    원래의 위치로 돌아오는지(true:돌아오지X)
+-->
+
