@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">JsonPractice</string>
+    <string name="movie_url">http://www.kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=430156241533f1d058c603178cc3ca0e&#38;targetDt=20200901</string>
+</resources>
